@@ -1,5 +1,5 @@
 h2 {
-    color: red;
+    color: blue;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
@@ -16,4 +16,26 @@ img {
 
 .centerText {
     text-align: center;
+}
+li{
+    display: inline;
+}
+
+.center{
+    margin:auto;
+}
+
+.center1{
+    float:right;
+}
+
+.box {
+    float: left;
+    width: 150px;
+    height: 75px;
+}
+
+.footer {
+    clear: left;
+    border: 2px solid green;
 }
