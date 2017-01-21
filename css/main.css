@@ -7,11 +7,27 @@ p {
     font-family: monospace;
 }
 
+div.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #000;
+}
+
+button{
+    height:auto;
+    width:auto;
+}
+
 img {
-    display: block;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
+    alignment:center;
+    display:block;
+    width: 5%;
+    margin-left:5px;
+    margin-right: 5px;
+
+
 }
 
 .centerText {
@@ -34,7 +50,6 @@ li{
     width: 150px;
     height: 75px;
 }
-
 .footer {
     clear: left;
     border: 2px solid green;
