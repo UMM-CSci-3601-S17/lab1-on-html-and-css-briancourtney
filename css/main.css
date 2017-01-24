@@ -10,7 +10,9 @@
     border-radius: 15px;
     border-color:red;
 }
-
+body{
+    background-color: black;
+}
 h2 {
     color: blue;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
