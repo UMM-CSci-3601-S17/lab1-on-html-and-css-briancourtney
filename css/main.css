@@ -6,6 +6,9 @@ h2 {
 p {
     font-family: monospace;
 }
+q {
+    font-family: monospace;
+}
 
 div.navbar{
     list-style-type: none;
