@@ -1,7 +1,7 @@
 #fit{
     background-color: white;
     width: 95%;
-    max-width: 905px;
+    max-width: 1000px;
     padding: 5px;
     margin: 0 auto;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
@@ -13,6 +13,7 @@
 body{
     background-color: black;
 }
+
 h2 {
     color: blue;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
@@ -23,16 +24,23 @@ p {
 }
 
 .navbar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: visible;
-    background-color: #000;
+    text-align: center;
 }
 
+ul{
+    list-style-type: none;
+    margin:0 auto;
+    padding:10px;
+    background-color: #000;
+    border-radius:12px;
+}
+li{
+    display:inline;
+}
 button{
-    height:auto;
-    width:auto;
+   height:50px;
+    width:24%;
+    font-size:25px;
 }
 
 .main{
@@ -60,12 +68,8 @@ h1.centerText {
     border-width: 10px;
     border-radius:8px;
     padding:10px;
-
 }
 
-li{
-    display: inline;
-}
 
 .center{
     margin:auto;
