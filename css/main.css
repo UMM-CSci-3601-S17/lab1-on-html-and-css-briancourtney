@@ -56,6 +56,8 @@ button{
 .img img{
     height: 550px;
     width: 800px;
+    border:5px solid;
+    border-radius:12px;
 }
 
 
