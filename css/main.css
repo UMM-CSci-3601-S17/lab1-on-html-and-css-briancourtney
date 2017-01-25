@@ -27,14 +27,14 @@ p {
     text-align: center;
 }
 
-ul{
+.navbar ul{
     list-style-type: none;
     margin:0 auto;
     padding:10px;
     background-color: #000;
     border-radius:12px;
 }
-li{
+.navbar li{
     display:inline;
 }
 button{
@@ -91,4 +91,17 @@ h1.centerText {
 .footer {
     clear: left;
     border: 2px solid green;
+}
+#navigate{
+    text-align: center;
+}
+
+#navigate li{
+    display: inline;
+    border:2px solid;
+    padding:3px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+
 }
