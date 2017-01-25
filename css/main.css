@@ -56,6 +56,14 @@ button{
 .img img{
     height: 400px;
     width: 400px;
+    border:5px solid;
+    border-radius:20px;
+    padding:10px;
+}
+.centerText{
+    border:3px solid;
+    padding:5px;
+    border-radius:10px;
 }
 
 h1{
@@ -88,4 +96,11 @@ h1.centerText {
 .footer {
     clear: left;
     border: 2px solid green;
+}
+.img1 img{
+    height: 300px;
+    width: 300px;
+    border:5px solid;
+    border-radius:20px;
+    padding:10px;
 }
