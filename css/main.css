@@ -35,18 +35,27 @@ p {
     border-radius:12px;
 }
 .navbar li{
-    display:inline;
-}
-button{
-   height:50px;
-    width:24%;
+    display: inline-block;
+    border:5px solid;
+    border-color:grey;
+    height:50px;
+    width:20%;
     font-size:25px;
+    padding:6px;
+    border-radius:8px;
+}
+.navbar li a{
+    color:white;
+    text-decoration: none;
+}
+
+.navbar ul :hover:not(.active) {
+    background-color: lightblue;
 }
 
 .main{
     text-align: center;
 }
-
 .img {
     display: inline-block;
     margin-left: auto;
@@ -96,12 +105,13 @@ h1.centerText {
     text-align: center;
 }
 
+#navigate li a{
+    text-decoration: none;
+}
+
 #navigate li{
     display: inline;
     border:2px solid;
     padding:3px;
-    -webkit-border-radius:8px;
-    -moz-border-radius:8px;
     border-radius:8px;
-
 }
