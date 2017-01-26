@@ -8,6 +8,7 @@
     font-size: 1em;
     border: 1px solid;
     border-radius: 15px;
+    /* CSS3 Used rounded corners to make the page look nice */
     border-color:red;
 }
 body{
@@ -33,6 +34,7 @@ p {
     padding:10px;
     background-color: #000;
     border-radius:12px;
+    /* CSS3 Used rounded corners to make the page look nice */
 }
 .navbar li{
     display: inline-block;
@@ -43,6 +45,7 @@ p {
     font-size:25px;
     padding:6px;
     border-radius:8px;
+    /* CSS3 Used rounded corners to make the page look nice */
 }
 .navbar li a{
     color:white;
@@ -67,6 +70,7 @@ p {
     width: 800px;
     border:5px solid;
     border-radius:12px;
+    /* CSS3 Used rounded corners to make the page look nice */
 }
 
 
@@ -80,6 +84,7 @@ h1.centerText {
     border-width: 10px;
     border-radius:8px;
     padding:10px;
+    /* CSS3 Used rounded corners to make the page look nice */
 }
 
 
@@ -114,4 +119,5 @@ h1.centerText {
     border:2px solid;
     padding:3px;
     border-radius:8px;
+    /* CSS3 Used rounded corners to make the page look nice */
 }
